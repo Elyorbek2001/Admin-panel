@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    /* Ikkala komponentni teng balandlikda qiladi */
+    height: 100vh;
+    /* Butun ekranni egallaydi */
+}
+
+.saidbar {
+    flex: 0.7;
+    /* Kenglikni belgilash */
+}
+
+.home {
+    flex: 3;
+    /* Kenglikni belgilash */
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /* Ma'lumotlar ko'paysa, skroll hosil bo'ladi */
+}

@@ -1,0 +1,53 @@
+.Login_page {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Viewport height */
+
+}
+
+.login {
+    background-color: rgb(30, 30, 250);
+    border: 2px solid black;
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 225px;
+    height: 250px;
+}
+
+.input_box input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.input_box input:focus {
+    border: none;
+    /* Focus holatida borderni olib tashlash */
+    outline: none;
+    /* Focus holatida outline'ni olib tashlash */
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(67, 237, 135);
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(234, 69, 69);
+}

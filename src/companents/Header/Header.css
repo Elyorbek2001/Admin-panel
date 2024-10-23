@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    padding: 10px 20px;
+    text-align: end;
+
+}
+
+button {
+    background-color: white;
+    border: 1px solid dimgray;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+
+}
+
+button {
+    position: relative;
+    display: inline-block;
+}
+
+.admin {
+    padding: 0px 10px;
+    font-weight: bold;
+    color: dimgray;
+}
+
+button .kursor {
+
+    visibility: hidden;
+    width: 160px;
+    color: #555;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -125%;
+    /* Tooltip matnining tugmaning pastida bo'lishi uchun */
+    left: 50%;
+    margin-left: -80px;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+
+}
+
+button:hover .kursor {
+    visibility: visible;
+    opacity: 1;
+}

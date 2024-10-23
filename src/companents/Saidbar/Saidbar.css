@@ -1,0 +1,27 @@
+.saidbar {
+    padding: 10px 20px;
+    background-color: #001529;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    padding: 0px 0px 10px 0px;
+    color: #A6ADB4;
+}
+
+a {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+    color: #A6ADB4;
+    text-decoration: none;
+}
+
+a:hover {
+    transform: scale(1.01);
+    /* Kursor ustida kattalashtirish */
+
+    color: #fff;
+    /* Hover holatida matn rangini o'zgartirish */
+}

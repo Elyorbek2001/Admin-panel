@@ -1,0 +1,168 @@
+.settings {
+    padding: 20px;
+    width: 100%;
+}
+
+/* Jadvalning umumiy uslubi */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Chegaralarni bitta qilib ko'rsatish */
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+}
+
+/* Jadval sarlavhalari uchun */
+th {
+
+    background-color: white;
+    /* Sarlavhalar uchun yashil fon */
+    color: black;
+    /* Sarlavhalar uchun oq rang */
+    padding: 12px 15px;
+    /* Sarlavhalar uchun ichki bo'sh joy */
+    text-align: left;
+    /* Matnni chapga yo'naltirish */
+}
+
+/* Jadval qatorlari uchun */
+td {
+    padding: 12px 15px;
+    /* Ma'lumotlar uchun ichki bo'sh joy */
+    border: 1px solid #ddd;
+    /* Qatorlar orasidagi chiziqlar */
+
+}
+
+/* Alternativ qatorlar uchun rang berish */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Har bir ikkinchi qator uchun fon rangi */
+}
+
+/* Jadvalga hover effekt qo'shish */
+tr:hover {
+    background-color: #ddd;
+    /* Qator ustiga kursorni olib kelganda fon rangini o'zgartirish */
+}
+
+.set_btn {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.add {
+    padding: 10px 20px;
+    background-color: #1677FF;
+    border: none;
+    color: white;
+
+
+}
+
+img {
+    width: 70px;
+    height: 60px;
+}
+
+.add_th {
+    text-align: end;
+}
+
+.qoshish {
+    background-color: #4CAF50;
+    /* Tugma uchun yashil rang */
+    color: white;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    /* Qo'shimcha joy */
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    /* Hoverda rang o'zgarishi */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #4CAF50;
+    /* Tugma fokusda bo'lganda soyasi */
+}
+
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+    width: 400px;
+    max-width: 100%;
+}
+
+.modal h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.modal input[type="file"] {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.modal .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.modal .btn:hover {
+    background-color: #45a049;
+}
+
+.modal input[type="file"]::file-selector-button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal input[type="file"]::file-selector-button:hover {
+    background-color: #45a049;
+}
